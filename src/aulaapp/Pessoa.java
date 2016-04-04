@@ -9,14 +9,12 @@ package aulaapp;
  *
  * @author itsg_negrao
  */
-public class AulaAPP {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        Pessoa p1 = new Pessoa();
-        p1.setIdade(-1);
-    }
+public class Pessoa {
+    int idade;
     
+    public void setIdade(int n){
+        if(n<0){
+            
+        }
+    }
 }
